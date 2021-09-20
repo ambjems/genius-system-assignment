@@ -1,0 +1,26 @@
+html {
+    --scrollbarBG: #0E0F2E;
+    --thumbBG: #61707B;
+  }
+  .userDetailsTable::-webkit-scrollbar {
+    width: 15px;
+  }
+  .userDetailsTable {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  .userDetailsTable::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  .userDetailsTable::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+  }
+
+  .userDetailsTable {
+    height: 90%;
+    width: 100%;
+    overflow: auto;
+
+  }
